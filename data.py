@@ -30,3 +30,9 @@ class OrderData:
     ALL_INGREDIENTS = {"ingredients": helpers.get_list_id_ingredients()}
     WITHOUT_INGREDIENTS = {"ingredients": []}
     INVALID_INGREDIENTS = {"ingredients": ["61c0c5a71d", "61c0c5a71d"]}
+
+class MessageData:
+
+    MESSAGE_WITHOUT_ONE_SOME_PARAMS = "Email, password and name are required fields"
+    MESSAGE_ALREADY_REGISTERED = "User already exists"
+    MESSAGE_INCORRECT = "email or password are incorrect"
